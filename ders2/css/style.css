@@ -1,0 +1,169 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menu{
+    position: fixed;
+right: 10px;
+top: 15px;
+border-radius: 5px;
+    transition: 0.6s;
+    color: #fff;
+    background-color: rgb(86, 87, 86,0.5);
+    font-size: 28px;
+    padding: 10px 10px;
+}
+#menu:hover{
+    background-color:   rgb(86, 87, 86,1); 
+}
+.container{
+    margin: 0 100px; 
+}
+
+.bir{
+    background-image: url(https://i.1.creatium.io/e5/bd/98/dd35688897a964f40dd6afcfd3cc750d99/uk9me0uzwpqc1khfkm6.jpg);
+    padding: 15rem 0;
+    background-position: center;
+    background-size: cover;
+
+text-align: center;
+
+}
+.bir h1{
+    
+    margin-bottom: 10px;
+    font-size: 88px;
+    color: #212529;
+
+}
+.bir em{
+    font-size: 28px;
+    color: #212529;
+
+}
+
+.bir a{
+  transition: 0.6s;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+
+}
+.bir a:hover{
+    background-color: #064385;
+}
+
+
+.uc{
+    background-color: #007bff;
+    padding: 5rem 0;
+
+}
+
+.uc .text h3{
+    color: #ecb807;
+    font-size: 16px;
+
+
+}
+
+.uc .text h2{
+    color: #ffffff;
+    font-size: 48px;
+
+
+}
+
+.uc .text{
+    text-align: center;
+}
+.uc .icon .col{
+    width: 25%;
+    text-align: center;
+}
+
+
+.uc .icon .col i{
+color: #1d809f;
+font-size: 36px;
+border-radius: 100%;
+padding: 35px 42px;
+background-color: #fff;
+
+
+
+}
+.uc .icon .col strong{
+font-size: 24px;
+color: #fff;
+
+}
+.uc .icon .col p{
+    font-size: 16px;
+    color: #ffffb3;
+    margin-top: 20px;
+    
+    }
+    .uc .icon{
+        margin-top: 90px;
+        display: flex;
+    }
+
+
+.dord .col{
+
+
+    position: relative;
+    width: 50%;
+}
+
+.dord .col img{
+    transition: 0.6s;
+    width: 100%;
+    height: 100%;
+}
+
+.dord .col .text h2{
+    font-size: 32px;
+    color: #fff;
+}
+.dord .col .text p{
+    font-size: 19px;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.dord .col .text{
+    position: absolute;
+    left: 60px;
+    bottom: 70px;
+
+}
+
+.dord .col:hover img{
+  
+  transform: scale(0.9); 
+  filter: opacity(0.5);
+
+
+}
+.dord{
+    padding: 10rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
